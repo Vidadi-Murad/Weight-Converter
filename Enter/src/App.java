@@ -23,8 +23,14 @@ public class App {
         System.out.print("Choose an option:");
         option = scanner.nextInt();
 
+        // First Option
         if(option == 1){
-         
+         double firstConvert;
+         double resultWeight1 = 0;
+         System.out.print("Enter the weight in LBS:");
+         firstConvert = scanner.nextDouble();
+         resultWeight1 = firstConvert / 2.20462;
+         System.out.printf("The new weight KGS is: %.2f", resultWeight1);
         }
 
 
