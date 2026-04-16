@@ -18,8 +18,17 @@ public class App {
         System.out.println(firstOption);
         System.out.println(secondOption);
 
+        int option;
+
+        System.out.print("Choose an option:");
+        option = scanner.nextInt();
+
+        if(option == 1){
+         
+        }
 
 
+     
 
         scanner.close();
     }
