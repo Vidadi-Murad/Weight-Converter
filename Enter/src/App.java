@@ -30,23 +30,21 @@ public class App {
          System.out.print("Enter the weight in LBS:");
          firstConvert = scanner.nextDouble();
          resultWeight1 = firstConvert / 2.20462;
-         System.out.printf("The new weight KGS is: %.2f", resultWeight1);
+         System.out.printf("The new weight KGS is: %.2fkg\n", resultWeight1);
         }
         // Second Option ( KGS -> LBS )
-        else if(option == 2){
+         else if(option == 2){
          double secondConvert;
          double resultWeight2 = 0;
          System.out.print("Enter the weight in KGS:");
          secondConvert = scanner.nextDouble();
          resultWeight2 = secondConvert * 2.20462;
-         System.out.printf("The new weight LBS is: %.2f", resultWeight2);
-        }else{
+         System.out.printf("The new weight LBS is: %.2fkg\n", resultWeight2);
+        }
+        // Error Handling
+        else{
             System.out.println("Oops Error Try Again Pls.... :(");
         }
-
-
-     
-
         scanner.close();
     }
 }
