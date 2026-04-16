@@ -40,6 +40,8 @@ public class App {
          secondConvert = scanner.nextDouble();
          resultWeight2 = secondConvert * 2.20462;
          System.out.printf("The new weight LBS is: %.2f", resultWeight2);
+        }else{
+            System.out.println("Oops Error Try Again Pls.... :(");
         }
 
 
